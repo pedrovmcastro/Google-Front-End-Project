@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img{
+    width: 74px;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.user-menu a {
+    font: 13px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.user-menu a:hover {
+    text-decoration: underline;
+}
+
+.user-menu a,
+.user-menu span {
+    margin-left: 10px;
+}
