@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -30,4 +31,35 @@ header {
 .user-menu a,
 .user-menu span {
     margin-left: 10px;
+}
+
+.appbar {
+    font-size: 20px;
+    color: #d93025;
+    padding: 25px 35px 20px 35px;
+    margin-left: 10px;
+}
+
+.section-line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+section {
+    display: flex;
+    height: 250px;
+}
+
+.column1 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.column2 {
+    background-color: lightpink;
+    width: 600px;
+}
+
+.column3 {
+    background-color: lightblue;
+    width: 300px;
 }
