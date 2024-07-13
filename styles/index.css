@@ -94,3 +94,23 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Responsiveness */
+
+@media (max-width: 650px) {
+    .searchbar {
+        width: 85vw;
+    }
+}
+
+@media (max-height: 750px) {
+    main {
+        padding-top: 95px;
+    }
+}
+
+@media (max-height: 650px) {
+    main {
+        padding-top: 0;
+    }
+}
